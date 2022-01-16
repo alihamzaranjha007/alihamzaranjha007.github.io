@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+    <script src="https://kit.fontawesome.com/0da99d5c13.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="icon" href="logos/logo.png">
+</head>
+<body>
+    <nav class="navebar">
+        <div class="max-width"> 
+                <div class="logo">
+                    <div><a href="#home"><img src="logos/logo-web.png" alt="logo"></a></div>
+                    <div><a href="#home"> Ali <span>Hamza</span></a></div>
+                </div>
+            <ul class="menu">
+                <li><a href="#home" class="menu-btn">Home</a></li>
+                <li><a href="#services" class="menu-btn">Services</a></li>
+                <li><a href="#about" class="menu-btn">About</a></li>
+                <!-- <li><a href="#" class="menu-btn">Skills</a></li>
+                <li><a href="#" class="menu-btn">Team</a></li> -->
+                <li><a href="contact" class="menu-btn">Contact</a></li>
+            </ul>
+            <div class="menu-btn">
+                <!--<img src="images/bars.png" alt="" class="bars">--> <i class="fas fa-bars"></i> 
+            </div>
+        </div>
+    </nav>
+
+    <!-- home section started -->
+    <section class="home" id="home">
+        <div class="max-width">
+            <div class="home-content">
+                <div class="text1">Hi! my name is</div>
+                <div class="text2">Ali Hamza</div>
+                <div class="text3">And I'm a <span class="typing"></span></div>
+                <a href="#">Hire me</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- services section starts -->
+    <section class="services" id="services">
+        <div class="max-width">
+            <h2 class="title">My Services</h2>
+            <div class="serv-content">
+                <div class="card">
+                    <div class="box">
+                        <i class="fa fa-paint-brush"></i>
+                        <div class="text">Web Desingn</div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam itaque nam placeat dolor dolorem dignissimos.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <i class="fa fa-code"></i>
+                        <div class="text">App Desingn</div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam itaque nam placeat dolor dolorem dignissimos.</p>                       
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <i class="fa fa-chart-line"></i>
+                        <div class="text">Graphic Desingn</div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam itaque nam placeat dolor dolorem dignissimos.</p>             
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About section starts -->
+    <section class="about" id="about">
+        <div class="max-width">
+            <h2 class="title">About me</h2>
+            <div class="about-content">
+                <div class="column left">
+                    <img src="images/me.JPG" alt="">
+                </div>
+                <div class="column right">
+                    <div class="text">I'm Ali Hamza and I'm a <span class="typing-2"></span></div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet ipsa necessitatibus vitae quo aliquid facilis sed nihil! Voluptatem quos, officia blanditiis repudiandae at nobis voluptate nemo, similique, obcaecati distinctio repellat culpa quis accusantium facilis quo eum architecto ea? Maiores vitae dolorem accusantium sequi, repellat quis error consectetur? Totam ex vel delectus nemo amet, maiores, ratione temporibus doloremque ipsum laboriosam numquam!</p>
+                    <a href="/cv/FinalTerm-007.pdf">Download CV</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- contact section starts  -->
+    <section class="contact" id="contact">
+        <div class="max-width">
+            <h2 class="title">Contact me</h2>
+            <div class="contact-content">
+                <div class="column left">
+                    <div class="text">Get in Touch</div>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Adipisci enim sed blanditiis quos. Quam voluptas, aperiam sapiente laboriosam maxime ipsam.</p>
+                    <div class="icons">
+                        <div class="row">
+                            <i class="fas fa-user"></i>
+                            <div class="info">
+                                <div class="head">Name</div>
+                                <div class="sub-title">Ali Hamza</div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <i class="fas fa-address-card"></i>
+                            <div class="info">
+                                <div class="head">Address</div>
+                                <div class="sub-title">Mandi Bahauddin, Punjab, Pakistan</div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <i class="fas fa-envelope"></i>
+                            <div class="info">
+                                <div class="head">Email</div>
+                                <div class="sub-title">19021519-007@uog.edu.pk</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="column right">
+                    <div class="text">Message me</div>
+                    <form id="my-form" action="https://formspree.io/f/mrgjebka" method="POST">
+                        <div class="fields">
+                            <div class="field name">
+                                <input type="text" placeholder="Name">
+                            </div>
+                            <div class="field email">
+                                <input type="email" placeholder="Email" required>
+                            </div>
+                        </div>
+                        <div class="field">
+                            <input type="text" placeholder="Subject" required>
+                        </div>
+                        <div class="textarea">
+                            <textarea cols="30" rows="10" placeholder="Describe project......." required></textarea>
+                        </div>
+                        <div class="button">
+                            <button type="submit">Send meassage</button>
+                        </div>
+                    </form>
+                    <div id="status"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer section start  -->
+    <footer>
+        <span>Created by <a href="#">Ali Hamza</a> | <span class="far fa-copyright"></span> 2022 all rights reserved</span>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
